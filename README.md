@@ -47,7 +47,7 @@ All options are set via tmux user options in `~/.tmux.conf`:
 | Option | Default | Description |
 |---|---|---|
 | `@alpha-capture` | `on` | Global enable/disable |
-| `@alpha-key-toggle` | `C` | Key (after prefix) to toggle per-pane capture |
+| `@alpha-key-toggle` | `A` | Key (after prefix) to toggle per-pane capture |
 | `@alpha-al-bin` | `al` | Path to the `al` binary |
 
 Example:
@@ -75,7 +75,7 @@ pane).
 
 ### Toggle capture per pane
 
-Press `prefix + C` (default) to toggle capture off/on for the current pane.
+Press `prefix + A` (default) to toggle capture off/on for the current pane.
 
 ### How capture works
 

@@ -9,7 +9,7 @@ alpha_capture=$(tmux show-option -gqv @alpha-capture)
 alpha_capture="${alpha_capture:-on}"
 
 toggle_key=$(tmux show-option -gqv @alpha-key-toggle)
-toggle_key="${toggle_key:-C}"
+toggle_key="${toggle_key:-A}"
 
 al_bin=$(tmux show-option -gqv @alpha-al-bin)
 al_bin="${al_bin:-al}"
